@@ -31,5 +31,6 @@ for column in range(12):
         btn = tk.Button(ventana,text=f"Boton {column + 1}",bg= rd.choice(colores)) 
         btn.grid(sticky="news", row=row,column=column)
 
+print("Hola")
 
 ventana.mainloop()
